@@ -1,0 +1,115 @@
+/* Icones Login */
+.icones-login {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.icones-login img {
+    width: 20px;
+}
+
+.botao-icones {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.icones-login .botao-icones:nth-child(1) {
+    background-color: blue;
+}
+
+.icones-login .botao-icones:nth-child(2) {
+    background-color: var(--light-grey);
+}
+
+.icones-login .botao-icones:nth-child(3) {
+    background-color: black;
+}
+
+/* Checkbox Login */
+.label-login-checkbox {
+    width: 100%;
+    margin: 15px 0 50px;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.input-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: var(--light-grey);
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+.input-checkbox:checked {
+    background-color: var(--red);
+}
+
+.input-checkbox:checked::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: 3px solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    margin: 2px 6px;
+}
+
+/* Outros botões */
+.botao-login {
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    background-color: red;
+    fill: white;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.botao-login i {
+    fill: white;
+}
+
+.botao-login:disabled {
+    cursor: auto;
+    background-color: white;
+    border: 2px solid var(--light-grey);
+}
+
+.botao-login:disabled i {
+    fill: var(--light-grey)
+}
+
+.link-login {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: var(--medium-grey);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.wallpaper {
+    width: 100%;
+    background-image: url("/img/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}

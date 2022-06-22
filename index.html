@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Login</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9222da89ac.js" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <!-- Coluna Login -->
+        <section class="login">
+            <div class="container">
+                <img src="/img/logo.png" class="logo-login">
+
+                <h1 class="titulo-login">Fazer login</h1>
+                <!-- Login form  -->
+                <label class="label-login">
+                    <span>nome de usuário</span>
+                    <input type="text" name="username" class="input">
+                </label>
+                <label class="label-login">
+                    <span>senha</span>
+                    <input type="password" name="password" class="input">
+                </label>
+                <!-- icones par alogin -->
+                <div class="icones-login">
+                    <button type="button" class="botao-icones">
+                        <img src="/img/facebook-icon.png" alt="facebook">
+                    </button>
+                    <button type="button" class="botao-icones">
+                        <img src="/img/google-icon.png" alt="google">
+                    </button>
+                    <button type="button" class="botao-icones">
+                        <img src="/img/apple-icon.png" alt="apple">
+                    </button>
+                </div>
+                <!-- Outros botões -->
+                <label class="label-login-checkbox">
+                    <input class="input-checkbox" type="checkbox"> Manter login
+                </label>
+            </div>
+
+            <div class="container">
+                <button type="button" class="botao-login" disabled>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+                <a class="link-login" href="#">Não consegue iniciar sessão?</a>
+                <a class="link-login" href="#">Criar Conta</a>
+            </div>
+        </section>
+        <!-- Fim Coluna Login -->
+        <section class="wallpaper"></section>
+    </main>
+</body>
+
+</html>
